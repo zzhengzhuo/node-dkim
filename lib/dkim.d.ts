@@ -22,3 +22,5 @@ export interface VerifyResult {
 export function verify(message: Buffer, callback: (error: Error, result: VerifyResult) => any): void;
 
 export function verifySignature(body: Buffer, headers: any[], callback: (error: Error, result: VerifyResult) => any): void;
+
+export function fixBody(message: Buffer): Buffer;
