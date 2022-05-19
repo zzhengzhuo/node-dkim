@@ -3,6 +3,8 @@ import Signature from "dkim-signature";
 
 export { Key, Signature };
 
+export function configKey(key: null | Key);
+
 export function getKey(
   domain: any,
   selector: any,
