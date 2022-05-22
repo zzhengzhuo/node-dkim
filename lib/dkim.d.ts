@@ -8,6 +8,7 @@ export function configKey(key: null | Key);
 export function getKey(
   domain: any,
   selector: any,
+  isDns: boolean,
   callback: (error: Error, key: Key) => any
 ): void;
 export function getKey(
@@ -35,12 +36,14 @@ export interface VerifyResult {
 
 export function verify(
   message: Buffer,
+  isDns: boolean,
   callback: (error: Error, result: VerifyResult) => any
 ): void;
 
 export function verifySignature(
   body: Buffer,
   headers: any[],
+  isDns: boolean,
   callback: (error: Error, result: VerifyResult) => any
 ): void;
 
