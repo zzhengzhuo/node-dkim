@@ -155,10 +155,9 @@ dkim-key@^1.3.0:
   resolved "https://registry.npmmirror.com/dkim-key/download/dkim-key-1.3.0.tgz#8d47fb44bc9f831e4c15135b3ef860a31f9c85d3"
   integrity sha1-jUf7RLyfgx5MFRNbPvhgox+chdM=
 
-dkim-signature@^1.3.0:
+"dkim-signature@github:zzhengzhuo/node-dkim-signature#next":
   version "1.3.0"
-  resolved "https://registry.npmmirror.com/dkim-signature/download/dkim-signature-1.3.0.tgz#aee5d45a8fcf8f79faa3a3a239e711eacd4de099"
-  integrity sha1-ruXUWo/Pj3n6o6OiOecR6s1N4Jk=
+  resolved "https://codeload.github.com/zzhengzhuo/node-dkim-signature/tar.gz/a2152c680fba6d63fdb1d9bda0fd0d856d1bb063"
 
 dmd@^3.0.10:
   version "3.0.13"
